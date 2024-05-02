@@ -37,7 +37,7 @@ if (daysUntilExpiration <= 10)
     {
         if (daysUntilExpiration == 1)
         {
-            Console.WriteLine(@"Your subscription expires within a day!");
+            Console.WriteLine("Your subscription expires within a day!");
             discountPercentage = 20;
         }
         else if (daysUntilExpiration == 0)
@@ -46,7 +46,7 @@ if (daysUntilExpiration <= 10)
         }
         else
         {
-            Console.WriteLine($@"Your subscription expires in {daysUntilExpiration} days until expiration.");
+            Console.WriteLine($"Your subscription expires in {daysUntilExpiration} days until expiration.");
             discountPercentage = 10;
         }
     }
